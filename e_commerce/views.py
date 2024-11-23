@@ -17,6 +17,6 @@ def sobre(request):
 def contato(request):
     context = {
         "title": "Página contato",
-        "content": "Bem-vindo a página sobre"
+        "content": "Bem-vindo a página contato"
     }
     return render(request, "contato.html", context)
