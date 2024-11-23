@@ -13,3 +13,10 @@ def sobre(request):
         "content": "Bem-vindo a página sobre"
     }
     return render(request, "sobre.html", context)
+
+def contato(request):
+    context = {
+        "title": "Página contato",
+        "content": "Bem-vindo a página sobre"
+    }
+    return render(request, "contato.html", context)
